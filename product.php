@@ -1,7 +1,9 @@
 
     <?php 
     include 'config.php';
-    include ($includes.'head.php'); ?>
+    include ($includes.'head.php'); 
+    $id=$_GET['id']; 
+    ?>
 
     <!-- Header Start ---->
     <header class="header" id="product">
@@ -20,15 +22,13 @@
         </div>
     </section>
 
-    <section class="product-name padding">
+    <section class="product-name padding" ng-controller="aboutCtrl">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" >
                     <div class="name-box">
                         <h2>Product Name</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
                             Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
                         </p>
                         <button type="button" class="btn btn-primary">Ask for trial</button>

@@ -56,7 +56,7 @@ include "config.php";
                             <p>
                                 {{product.tDesc}}
                             </p>
-                            <a href="{{product.id}}" class="btn btn-primary">Learn More</a>
+                            <a href="product.php?id={{product.id}}" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
