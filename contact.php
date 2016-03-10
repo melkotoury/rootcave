@@ -1,9 +1,11 @@
-<?php include('assets/php/head.php'); ?>
+<?php 
+include 'config.php';
+include($includes.'head.php'); ?>
 
     <!-- Header Start ---->
     <header class="header" id="contact">
         <!-- navigation Start -->
-        <?php include('assets/php/navigation.php'); ?>
+        <?php include($includes.'navigation.php'); ?>
         <!-- navigation End -->
     </header>
     <!-- Header ---->
@@ -32,4 +34,4 @@
 
 
     <!-- footer start -->
-    <?php include('assets/php/footer.php'); ?>
+    <?php include($includes.'footer.php'); ?>

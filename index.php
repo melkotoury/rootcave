@@ -33,7 +33,7 @@
     </section>
 
 
-    <section class="aboutme padding">
+    <section class="aboutme padding" id=aboutUs>
         <div class="container text-center">
             <div class="row">
                 <img class="img-responsive" src="<?php echo $img; ?>Logo.png">
@@ -118,10 +118,10 @@
         </div>
     </section>
 
-    <section class='clients padding text-center'>
+    <section class='clients padding text-center' id="customers">
         <div class="container">
             <div class="row">
-                <h2>Clients</h2>
+                <h2>Customers</h2>
             </div>
             <div class="row">
                 <div class="col-sm-4" data-ng-repeat="client in clients">

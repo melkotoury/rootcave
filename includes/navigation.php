@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php">home</a></li>
-                <li><a href="#">about us</a></li>
+                <li><a href="index.php#aboutUs">about us</a></li>
             <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -28,7 +28,7 @@
           </ul>
         </li>
 
-                <li><a href="#">team</a></li>
+                <li><a href="index.php#customers">customers</a></li>
                 <li><a href="contact.php">contact us</a></li>
                 <li class="hidden-sm hidden-xs" style="font-size: 35px;color:#FFF;margin-top: 15px;">|</li>
                 <li><a href="demo.php" class="btn btn-primary">Demo</a></li>
