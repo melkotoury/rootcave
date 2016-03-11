@@ -32,16 +32,16 @@
             <div class="row">
                 <div class="col-sm-6" >
                     <div class="name-box">
-                        <h2><?php echo $json['lobProduct'][0]['title'];  ?></h2>
+                        <h2><?php echo $json['lobProduct'][$id]['title'];  ?></h2>
                         <p>
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                          <?php echo $json['lobProduct'][$id]['description'];  ?>
                         </p>
                         <button type="button" class="btn btn-primary">Ask for trial</button>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="name-box">
-                        <img class="img-responsive" src="<?php echo $img; ?>Mac.png">
+                        <img class="img-responsive" src="<?php echo $img.'Computer/'.$json['lobProduct'][$id]['mockup']; ?>">
                     </div>
                 </div>
             </div>
@@ -54,18 +54,17 @@
                 <div class="col-sm-6">
                     <div class="l-box">
                         <p class="white">
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                        <?php echo $json['lobProduct'][$id]['projectsdetails'][0]['description_details'];  ?>
+                          
                         </p>
-                        <button type="button" class="btn btn-primary">Learn More</button>
+                       
                     </div>
                 </div>
 
                 <div class="col-sm-6">
                     <div class="l-box">
 
-                        <img class="img-responsive" src="<?php echo $img; ?>PcColl.png">
+                        <img class="img-responsive" src="<?php echo $img.'Computer/'.$json['lobProduct'][$id]['projectsdetails'][0]['mockup_details']; ?>">
                     </div>
                 </div>
 
