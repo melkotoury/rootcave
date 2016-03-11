@@ -6,8 +6,7 @@ angular.module("rootCave", ['ngRoute'])
     .service('aboutService', function ($http, $q) {
         "use strict";
         var deferred = $q.defer();
-
-        $http.get('assets/data.json').then(function (rcdata) {
+        $http.get('data/data.json').then(function (rcdata) {
             deferred.resolve(rcdata);
         });
         this.getAbout = function () {

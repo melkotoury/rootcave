@@ -2,6 +2,11 @@
     <?php 
     include 'config.php';
     include ($includes.'head.php'); 
+    $jsondata=file_get_contents("data/data.json");
+    $json= json_decode($jsondata,true);
+    //echo $json['lobProduct'][0]['id'];
+
+
     $id=$_GET['id']; 
     ?>
 
@@ -27,7 +32,7 @@
             <div class="row">
                 <div class="col-sm-6" >
                     <div class="name-box">
-                        <h2>Product Name</h2>
+                        <h2><?php echo $json['lobProduct'][0]['title'];  ?></h2>
                         <p>
                             Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
                         </p>
