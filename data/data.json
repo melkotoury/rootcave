@@ -3,37 +3,61 @@
         {
             "icon": "flaticon-computer",
             "title": "Line Of Business",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "Root Cave focus on delivering top notch data driven line of business application which are mission critical software specific to the business. We understand the needs and expectations for the user experience and design simple interfaces for complex web applications that help users do more with less."
         },
         {
             "icon": "flaticon-technology-2",
             "title": "Mopile App",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "Mobile devices are increasingly utilized to access content and interact with brands. So, it is critical that you have a well-designed and solidly executed mobile experience. Root Cave provides clients with brand consistency through and throughout customized mobile websites and applications."
         }
     ],
 
     "about": [
         {
-            "icon":"fa fa-lightbulb-o",
-            "title":"Title Here postion",
+            "icon":"1-sales.png",
+            "title":"Sales",
+            "description": "Sales by Root Cave CRM provides a complete and intuitive solution that can help salespeople be more productive so they can focus on what's most important—delivering amazing customer experiences."
+        },
+
+        {
+            "icon":"2-cs.png",
+            "title":"Service",
+            "description": "Service by Root Cave CRM empowers customers through their choice of self and assisted service options; empowers agents to deliver fast, informed and effective resolutions; and seamlessly incorporates field solutions when there is a need for onsite help. Our agile solutions easily adapt to changing demands so that your business can deliver intent driven outcomes in a secure, flexible and reliable environment.."
+        },
+
+        {
+            "icon":"3-marketing.png",
+            "title":"Marketing",
+            "description": "Root Cave Marketing is an integrated marketing resource management solution for marketing operation, planning, execution, and analytics across all channels—email, digital, social, SMS, and traditional."
+        },
+
+        {
+            "icon":"4-financials.png",
+            "title":"Finance",
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
         },
 
         {
-            "icon":"fa fa-lightbulb-o",
-            "title":"Title Here postion",
+            "icon":"5-hr.png",
+            "title":"Human Resources",
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
         },
 
         {
-            "icon":"fa fa-lightbulb-o",
-            "title":"Title Here postion",
+            "icon":"6-ecommerce.png",
+            "title":"Ecommerce",
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
         },
 
         {
-            "icon":"fa fa-lightbulb-o",
-            "title":"Title Here postion",
+            "icon":"7-school.png",
+            "title":"School",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        },
+
+        {
+            "icon":"8-medical.png",
+            "title":"Medical",
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
         }
     ],

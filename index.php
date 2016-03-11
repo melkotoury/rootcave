@@ -36,18 +36,17 @@
     <section class="aboutme padding" id=aboutUs>
         <div class="container text-center">
             <div class="row">
-                <img class="img-responsive" src="<?php echo $img; ?>Logo.png">
+                <h1 class="text-center"><span class="rcColor">Root Cave</span> at a glance</h1>
 
                 <p>
-                    ABOUT Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                    Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                    Root Cave delivers a business application suite for small and medium size companies around the world. , our flexible solutions help you accelerate your business growth. That flexibility allows you to choose to implement the suite on your existing servers or move to a modern cloud implementation. Explore these pages to see why we are now the fastest growing business management solution!
                 </p>
                 <br><br>
             </div>
             <div class="row">
-                <div class="col-sm-3" data-ng-repeat="items in about">
+                <div class="col-sm-3 col-md-3" data-ng-repeat="items in about">
                     <div class="about-box">
-                        <i class="{{items.icon}}"></i>
+                        <img ng-src= "<?php echo $img_about; ?>{{items.icon}}"> 
                         <h3>{{items.title}}</h3>
                         <p>{{items.description}}</p>
                     </div>
@@ -73,7 +72,7 @@
 
                 <div class="col-sm-6">
                     <div class="l-box">
-                        <img class="img-responsive" src="<?php echo $img; ?>PcColl.png">
+                        <img class="img-responsive" ng-src="<?php echo $img; ?>PcColl.png">
                     </div>
                 </div>
 
@@ -85,12 +84,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h3>Mopile App</h3>
+                    <h3>Mobile App</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                        Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                        Mobile devices are increasingly utilized to access content and interact with brands. So, it is critical that you have a well-designed and solidly executed mobile experience. Root Cave provides clients with brand consistency through and throughout customized mobile websites and applications.
                     </p>
-                    <a href="mopile-app.php" class="btn btn-primary">Get Started</a>
+                    <a href="mobile-apps.php" class="btn btn-primary">Get Started</a>
                 </div>
 
                 <div class="col-sm-6">
@@ -102,12 +100,12 @@
     <section class="anytime padding">
         <div class="container">
             <div class="row">
-                <img class="img-responsive" src="<?php echo $img; ?>map.png">
+                <img class="img-responsive" ng-src="<?php echo $img; ?>map.png">
             </div>
             <div class="row white text-center">
                 <div class="col-sm-4" data-ng-repeat="any in anytime">
                     <div class="box-any">
-                        <img class="img-responsive" src="<?php echo $img; ?>{{any.icon}}">
+                        <img class="img-responsive" ng-src="<?php echo $img; ?>{{any.icon}}">
                         <h3>{{any.title}}</h3>
                         <p>
                             {{any.description}}
@@ -125,7 +123,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4" data-ng-repeat="client in clients">
-                    <img class="img-responsive" src="<?php echo $img; ?>{{client.clinetLogo}}">
+                    <img class="img-responsive" ng-src="<?php echo $img; ?>{{client.clinetLogo}}">
                 </div>
 
 
