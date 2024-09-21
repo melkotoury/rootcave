@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from 'react';
 
 const Contact = () => {
@@ -26,12 +26,18 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    const formDataToSend = new FormData();
+    formDataToSend.append('name', formData.name);
+    formDataToSend.append('email', formData.email);
+    formDataToSend.append('subject', formData.subject);
+    formDataToSend.append('message', formData.message);
+    if (formData.file) {
+      formDataToSend.append('file', formData.file);
+    }
+
     const response = await fetch('/api/contact', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
+      body: formDataToSend,
     });
 
     if (response.ok) {
